@@ -30,7 +30,15 @@ document.addEventListener('DOMContentLoaded', getQuestion);
 // next button
 nextBtn.addEventListener('click', validate);
 
+//back button
+prevBtn.addEventListener('click', prevQuestion);
+
 // Functions
+function prevQuestion() {
+    position --;
+    formBox.className = '';
+    getQuestion();
+}
 
 function validate() {
     // Make Sure Pattern Matches If There Is One

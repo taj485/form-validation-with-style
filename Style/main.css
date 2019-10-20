@@ -91,7 +91,7 @@ h1.logo {
   position: relative;
   padding: 30px 20px 20px 20px;
   margin: 10px 60px 10px 10px;
-  opacity: 1;
+  opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
@@ -121,7 +121,7 @@ h1.logo {
 #input-group input:valid + #input-label {
   top: 6px;
   left: 42px;
-  margin-left: 0 !important;
+  margin-left: 30 !important;
   font-size: 11px;
   font-weight: normal;
   color: #9e9e9e;

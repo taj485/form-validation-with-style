@@ -9,3 +9,5 @@ code
 The <label> tag defines a label for a <button>, <input>, <meter>, <output>, <progress>, <select>, or <textarea> element.
 
 position: relative; abolute elements inside
+- look in to positions - what is absolute??
+- what is transition? - ease-in-out

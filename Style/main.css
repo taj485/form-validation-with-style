@@ -95,4 +95,65 @@ h1.logo {
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
+
+#input-group input {
+  position: relative;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: 0;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#input-group #input-label {
+  position: absolute;
+  pointer-events: none;
+  top: 32px;
+  left: 20px;
+  font-weight: bold;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+#input-group input:valid + #input-label {
+  top: 6px;
+  left: 42px;
+  margin-left: 0 !important;
+  font-size: 11px;
+  font-weight: normal;
+  color: #9e9e9e;
+}
+
+#input-progress {
+  border-bottom: 3px solid #428bca;
+  width: 0;
+  -webkit-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
+}
+
+#progress-bar {
+  position: absolute;
+  background: #b9d4ec;
+  height: 10px;
+  width: 0;
+  -webkit-transition: 50% ease-in-out;
+  transition: 50% ease-in-out;
+}
+
+.error #input-progress {
+  border-color: #ff2d26;
+}
+
+.error #next-btn {
+  color: #ff2d26;
+}
+
+@media (max-width: 600px) {
+  #form-box {
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
